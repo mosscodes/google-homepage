@@ -5,48 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for." name="description">
     <meta content="noodp" name="robots">
-    <link rel="shortcut icon" type="image/png" href="/images/googleg_standard_color_128dp.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="http://www.google.com/favicon.ico">
     <title>Google</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 
     <div></div>
+    <div class="viewport">
+        <style>@media only screen and (max-width:380px){#gb div{display:none}}#gb{font-size:13px}#hptl{position:absolute;margin:7px 0 0 10px}#hptl a{display:inline-block;padding-left:15px;color:#000;opacity:0.75}#gb{position:relative;top:8px}#gb{top:16px}div#viewport{position:absolute;top:0;width:100%}div#searchform.jhp{margin-top:0}#searchform.big.jhp>#tsf{max-width:none}.jhp>#tsf{max-width:none}</style>
+        <div class="nav-bar-wrapper">
+            <div class="nav-left">
+                <!-- Formatted like this to remove the whitespace between elements -->
+                <a id="about" href="#">About</a><a id="store" href="#">Store</a>
+            </div>
 
-    <div class="nav-bar-wrapper">
-        <div class="nav-left">
-            <div class="nav-bar" id="about"></div>
-            <div class="nav-bar" id="store"></div>
+            <div style="top:0;left:0;right:0;width:100%;">
+                <div class="nav-right">
+                    <div class="gmail-images-wrapper">
+                        <div class="nav-item" id="gmail">
+                            <a href="#">Gmail</a>
+                        </div>
+                        <div class="nav-item" id="images">
+                            <a href="#">Images</a>
+                        </div>
+                    </div>
+                    <div class="grid-sign-wrapper">
+                        <div class="grid-icon">
+                            <div class="nav-item" id="apps">
+                                <a href="#">
+                                    <i class="bi bi-grid-3x3-gap-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sign-in-btn">
+                            <div class="nav-item" id="sign-in">
+                                <a href="#">Sign in</a>
+                                <div id="anondiv1"></div>
+                                <div id="anondiv2"></div>
+                            </div>
+                        </div>  
+                    </div>
+                </div> 
+            </div> 
         </div>
 
-        <div class="nav-right">
-            <div class="nav-bar" id="gmail"></div>
-            <div class="nav-bar" id="images"></div>
-            <div class="nav-bar" id="apps"></div>
-            <div class="nav-bar" id="sign-in"></div>  
-        </div>  
-    </div>
-
-    <div class="page-content-wrapper">
-        <div class="page-content" id="logo"></div>
-        <div class="page-content" id="search-bar"></div>
-        <div class="page-content" id="search-btn"></div>
-        <div class="page-content" id="lucky-btn"></div>
-    </div>
-
-    <div class="footer-bar-wrapper">
-        <div class="footer-left">
-            <div class="footer-bar" id="advertising"></div>
-            <div class="footer-bar" id="business"></div>
-            <div class="footer-bar" id="search-works"></div>
+        <div class="page-content-wrapper">
+            <div class="page-content" id="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            </div>
+            <div class="page-content" id="search-bar">
+                <input type="text" title="Search">
+            </div>
+            <div class="page-content" id="search-btn">
+                <input value="Google Search" aria-label="Google Search" type="submit">
+            </div>
+            <div class="page-content" id="lucky-btn">
+                <input value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" type="submit">
+            </div>
         </div>
-        <div class="footer-center">
-            <div class="footer-bar" id="carbon"></div>
-        </div>
-        <div class="footer-right">
-            <div class="footer-bar" id="privacy"></div>
-            <div class="footer-bar" id="terms"></div>
-            <div class="footer-bar" id="settings"></div>
+
+        <div class="footer-bar-wrapper">
+            <div class="footer-left">
+                <div class="footer-item" id="advertising">
+                    <a href="#">Advertising</a>
+                </div>
+                <div class="footer-item" id="business">
+                    <a href="#">Business</a>
+                </div>
+                <div class="footer-item" id="search-works">
+                    <a href="#">How Search Works</a>
+                </div>
+            </div>
+            <div class="footer-center">
+                <div class="footer-item" id="carbon-wrapper">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC" alt="Leaf Image">
+                    <a id="carbon" href="#">Carbon neutral since 2007</a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-item" id="privacy">
+                    <a href="#">Privacy</a>
+                </div>
+                <div class="footer-item" id="terms">
+                    <a href="#">Terms</a>
+                </div>
+                <div class="footer-item" id="settings">
+                    <a href="#">Settings</a>
+                </div>
+            </div>
         </div>
     </div>
 </body>

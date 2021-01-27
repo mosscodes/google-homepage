@@ -1,0 +1,157 @@
+.nav-bar-wrapper {
+    top: 16px;
+    position: relative;
+    font-size: 13px;
+}
+
+.nav-left {
+    position: absolute;
+    margin: 7px 0 0 10px;
+}
+
+.nav-left > a {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+
+.nav-left > a:hover {
+    text-decoration: underline;
+}
+
+
+.nav-right {
+    min-width: 220px;
+    z-index: 987;
+    display: flex;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    position:relative;
+    align-items: center;
+    justify-content: flex-end;
+    -moz-user-select: -moz-none;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    white-space: nowrap;
+}
+
+.nav-right > .gmail-images-wrapper {
+    padding-right: 15px;
+    flex: 0 1 auto;
+    display: flex;
+    line-height: normal;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    white-space: nowrap;
+}
+
+.nav-right > .gmail-images-wrapper > .nav-item {
+    display: inline-block;
+    padding-left: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    flex: 0 0 auto;
+}
+
+.nav-right > .gmail-images-wrapper > #images {
+    padding-left: 15px;
+}
+
+.nav-right > .gmail-images-wrapper > .nav-item > a {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    font-family: arial, sans-serif;
+}
+
+.nav-right > .gmail-images-wrapper > .nav-item > a:hover {
+    text-decoration: underline;
+}
+
+.nav-right > .grid-sign-wrapper {
+    min-width: 114px;
+    flex: 0 1 auto;
+    display: flex; 
+    line-height: normal;
+    position: relative;
+    text-align: left;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    white-space: nowrap;
+}
+
+.nav-right > .grid-sign-wrapper > .grid-icon {
+    padding-left: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    display: inline-block;
+    flex: 0 0 auto;
+    padding: 0 0 0 15px;
+}
+
+.nav-right > .grid-sign-wrapper > .grid-icon > .nav-item {
+    position: relative;
+    line-height: normal;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.nav-right > .grid-sign-wrapper > .grid-icon > .nav-item > a {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.55;
+    display: inline-block;
+    font-size: 1.75em !important;
+    line-height: normal;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.nav-right > .grid-sign-wrapper > .grid-icon > .nav-item > a:hover {
+    color: #000;
+    opacity: 1;
+}
+
+.nav-right > .grid-sign-wrapper > .sign-in-btn {
+    display: inline-block;
+    padding: 0 0 0 15px;
+    position: relative;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    flex: 0 0 auto;
+    line-height: normal;
+    text-align: left;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+.nav-right > .grid-sign-wrapper > .sign-in-btn > .nav-item {
+    position: relative;
+    line-height: normal;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.nav-right > .grid-sign-wrapper > .sign-in-btn > .nav-item > a {
+    color:#fff;
+    cursor: default;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -moz-linear-gradient(top, #4387fd, #4683ea);
+    background: linear-gradient(top,#4387fd,#4683ea);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4387fd,endColorstr=#4683ea,GradientType=0);
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+}
