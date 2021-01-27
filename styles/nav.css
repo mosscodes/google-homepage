@@ -59,6 +59,7 @@
 
 .nav-right > .gmail-images-wrapper > #images {
     padding-left: 15px;
+    margin: 0 -9px 0 0 !important;
 }
 
 .nav-right > .gmail-images-wrapper > .nav-item > a {
@@ -92,7 +93,7 @@
     margin-right: 0 !important;
     display: inline-block;
     flex: 0 0 auto;
-    padding: 0 0 0 15px;
+    padding: 6px 5px 0 15px;
 }
 
 .nav-right > .grid-sign-wrapper > .grid-icon > .nav-item {
@@ -108,7 +109,7 @@
     text-decoration: none;
     opacity: 0.55;
     display: inline-block;
-    font-size: 1.75em !important;
+    font-size: 18px !important;
     line-height: normal;
     text-align: left;
     white-space: nowrap;
