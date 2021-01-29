@@ -27,3 +27,6 @@ I then added an id to each so I could make individual changes if needed (I actua
 As it turned out, most of the time it was different across the classes so it was easier to be specific. 
 But being general and specific simultaniously has it's advantages. 
 
+The active styles shown in the developer tools inspector change depending on the viewport size.
+This caused a ton of misstyling errors before I realized this was happening. 
+If looking at an element's styles, make the screen the size you want it and pop out the developer tools window so that it doesn't interfere by changing the screen size.
